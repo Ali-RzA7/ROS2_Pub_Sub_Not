@@ -1,0 +1,4 @@
+[console_scripts]
+listener = aliriza.subscriber:main
+talker = aliriza.publisher:main
+

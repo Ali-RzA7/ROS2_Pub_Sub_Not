@@ -1,0 +1,25 @@
+[0.724s] Invoking command in '/home/user/ros2_ws/src/aliriza': PYTHONPATH=/home/user/ros2_ws/build/aliriza/prefix_override:/home/user/ros2_ws/install/aliriza/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/aliriza build --build-base /home/user/ros2_ws/build/aliriza/build install --record /home/user/ros2_ws/build/aliriza/install.log --install-scripts $base/lib/aliriza --single-version-externally-managed
+[0.879s] running egg_info
+[0.879s] writing ../../build/aliriza/aliriza.egg-info/PKG-INFO
+[0.880s] writing dependency_links to ../../build/aliriza/aliriza.egg-info/dependency_links.txt
+[0.880s] writing entry points to ../../build/aliriza/aliriza.egg-info/entry_points.txt
+[0.880s] writing requirements to ../../build/aliriza/aliriza.egg-info/requires.txt
+[0.880s] writing top-level names to ../../build/aliriza/aliriza.egg-info/top_level.txt
+[0.908s] reading manifest file '../../build/aliriza/aliriza.egg-info/SOURCES.txt'
+[0.908s] writing manifest file '../../build/aliriza/aliriza.egg-info/SOURCES.txt'
+[0.908s] running build
+[0.908s] running build_py
+[0.908s] copying aliriza/publisher.py -> /home/user/ros2_ws/build/aliriza/build/lib/aliriza
+[0.909s] running install
+[0.909s] running install_lib
+[0.910s] copying /home/user/ros2_ws/build/aliriza/build/lib/aliriza/publisher.py -> /home/user/ros2_ws/install/aliriza/lib/python3.8/site-packages/aliriza
+[0.910s] byte-compiling /home/user/ros2_ws/install/aliriza/lib/python3.8/site-packages/aliriza/publisher.py to publisher.cpython-38.pyc
+[0.911s] running install_data
+[0.912s] running install_egg_info
+[0.913s] removing '/home/user/ros2_ws/install/aliriza/lib/python3.8/site-packages/aliriza-0.0.0-py3.8.egg-info' (and everything under it)
+[0.913s] Copying ../../build/aliriza/aliriza.egg-info to /home/user/ros2_ws/install/aliriza/lib/python3.8/site-packages/aliriza-0.0.0-py3.8.egg-info
+[0.914s] running install_scripts
+[0.926s] Installing listener script to /home/user/ros2_ws/install/aliriza/lib/aliriza
+[0.926s] Installing talker script to /home/user/ros2_ws/install/aliriza/lib/aliriza
+[0.926s] writing list of installed files to '/home/user/ros2_ws/build/aliriza/install.log'
+[0.948s] Invoked command in '/home/user/ros2_ws/src/aliriza' returned '0': PYTHONPATH=/home/user/ros2_ws/build/aliriza/prefix_override:/home/user/ros2_ws/install/aliriza/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/aliriza build --build-base /home/user/ros2_ws/build/aliriza/build install --record /home/user/ros2_ws/build/aliriza/install.log --install-scripts $base/lib/aliriza --single-version-externally-managed

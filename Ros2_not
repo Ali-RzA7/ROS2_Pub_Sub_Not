@@ -1,0 +1,18 @@
+WORKSPACE OLUŞTURMA
+'source /opt/ros/foxy/setup.bash' komutu çalıştırılır. Bu komut ROS 2'nin yüklü olduğu dizindeki setup.bash betik dosyasını etkinleştirir. Böylelikle ROS 2 paketlerine erişilir.
+
+Workspace için klasör oluşturulur. Oluşturulan paketlerin koyulması içinde workspace klasörüne src adında klasör oluşturulur.
+
+Bağımlılıkları kontrol etmek için 'rosdep install -i --from-path src --rosdistro foxy -y' komutu çalıştırılır. --from-path src parametresinde, src dizini altında yer alan ROS 2 paketlerinin bağımlılıkları yüklenir. --rosdistro foxy parametresinde foxy dağıtmı için bağımlılıklar yükenir.
+
+Projeyi derlemek için 'colcon build' komutu kullanılır. Bu komut paketleri derler. Derleme işlemi sırasında kullanılacak olan çalışma alanı oluşturulur.Derlenen dosyalar ve çalışma zamanı kodları orada depolnır. Derleme işlemi tamamlandığında, çalışma zamanı dosyalarını etkinleştirmek için 'source install/local_setup.bash' komutu kullanılır.
+
+PAKET OLUŞTURMA
+src klasörü içinde 'ros2 pkg create --build-type ament_python Paketİsmi' komutu çalıştırılır. ament_python, paketin Python dilinde yazılacağını temsil eder. Paketİsmi ve resource klasörlerini, package.xml, setup.cfg ve setup.py dosyalarını oluşturulur. Paketİsmi klasörünün altında kodlar olur. package.xml, paketin meta bilgilerini içeren bir XML dosyasıdır. Paketin adı, sürümü, açıklaması, bağımlılıkları ve diğer meta bilgileri gibi paketle ilgili temel bilgileri içerir. setup.py python paketlerini tanımlamak, dağıtmak ve yüklemek için kullanılır.
+
+'colcon build' ile derlenir. Spesifik bir paketin derlenmesi için 'colcon build --packages-select Paketİsmi' komutu çalıştırılır. Derlenmiş paketi veya projeyi kullanabilmek için 'source install/local_setup.bash' komutu çalıştırılır.
+
+WRİTİNG PUBLİSHER AND SUBSCRİBER(Python)
+Yazılacak publisher and subscriber kodları paketin altındaki paketin ismindeki klasör altına  yazılır.
+
+

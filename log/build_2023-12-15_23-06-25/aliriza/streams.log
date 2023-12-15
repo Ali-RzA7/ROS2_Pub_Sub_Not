@@ -1,0 +1,33 @@
+[0.780s] Invoking command in '/home/user/ros2_ws/src/aliriza': PYTHONPATH=/home/user/ros2_ws/build/aliriza/prefix_override:/home/user/ros2_ws/install/aliriza/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/aliriza build --build-base /home/user/ros2_ws/build/aliriza/build install --record /home/user/ros2_ws/build/aliriza/install.log --install-scripts $base/lib/aliriza --single-version-externally-managed
+[0.932s] running egg_info
+[0.932s] creating ../../build/aliriza/aliriza.egg-info
+[0.932s] writing ../../build/aliriza/aliriza.egg-info/PKG-INFO
+[0.932s] writing dependency_links to ../../build/aliriza/aliriza.egg-info/dependency_links.txt
+[0.932s] writing entry points to ../../build/aliriza/aliriza.egg-info/entry_points.txt
+[0.933s] writing requirements to ../../build/aliriza/aliriza.egg-info/requires.txt
+[0.933s] writing top-level names to ../../build/aliriza/aliriza.egg-info/top_level.txt
+[0.942s] writing manifest file '../../build/aliriza/aliriza.egg-info/SOURCES.txt'
+[0.971s] reading manifest file '../../build/aliriza/aliriza.egg-info/SOURCES.txt'
+[0.971s] writing manifest file '../../build/aliriza/aliriza.egg-info/SOURCES.txt'
+[0.971s] running build
+[0.972s] running build_py
+[0.972s] creating /home/user/ros2_ws/build/aliriza/build
+[0.972s] creating /home/user/ros2_ws/build/aliriza/build/lib
+[0.972s] creating /home/user/ros2_ws/build/aliriza/build/lib/aliriza
+[0.972s] copying aliriza/__init__.py -> /home/user/ros2_ws/build/aliriza/build/lib/aliriza
+[0.972s] running install
+[0.972s] running install_lib
+[0.973s] creating /home/user/ros2_ws/install/aliriza/lib/python3.8/site-packages/aliriza
+[0.973s] copying /home/user/ros2_ws/build/aliriza/build/lib/aliriza/__init__.py -> /home/user/ros2_ws/install/aliriza/lib/python3.8/site-packages/aliriza
+[0.973s] byte-compiling /home/user/ros2_ws/install/aliriza/lib/python3.8/site-packages/aliriza/__init__.py to __init__.cpython-38.pyc
+[0.974s] running install_data
+[0.974s] creating /home/user/ros2_ws/install/aliriza/share/ament_index
+[0.975s] creating /home/user/ros2_ws/install/aliriza/share/ament_index/resource_index
+[0.975s] creating /home/user/ros2_ws/install/aliriza/share/ament_index/resource_index/packages
+[0.975s] copying resource/aliriza -> /home/user/ros2_ws/install/aliriza/share/ament_index/resource_index/packages
+[0.975s] copying package.xml -> /home/user/ros2_ws/install/aliriza/share/aliriza
+[0.975s] running install_egg_info
+[0.976s] Copying ../../build/aliriza/aliriza.egg-info to /home/user/ros2_ws/install/aliriza/lib/python3.8/site-packages/aliriza-0.0.0-py3.8.egg-info
+[0.976s] running install_scripts
+[0.991s] writing list of installed files to '/home/user/ros2_ws/build/aliriza/install.log'
+[1.012s] Invoked command in '/home/user/ros2_ws/src/aliriza' returned '0': PYTHONPATH=/home/user/ros2_ws/build/aliriza/prefix_override:/home/user/ros2_ws/install/aliriza/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/aliriza build --build-base /home/user/ros2_ws/build/aliriza/build install --record /home/user/ros2_ws/build/aliriza/install.log --install-scripts $base/lib/aliriza --single-version-externally-managed

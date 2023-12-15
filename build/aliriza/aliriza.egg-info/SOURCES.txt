@@ -1,0 +1,17 @@
+package.xml
+setup.cfg
+setup.py
+../../build/aliriza/aliriza.egg-info/PKG-INFO
+../../build/aliriza/aliriza.egg-info/SOURCES.txt
+../../build/aliriza/aliriza.egg-info/dependency_links.txt
+../../build/aliriza/aliriza.egg-info/entry_points.txt
+../../build/aliriza/aliriza.egg-info/requires.txt
+../../build/aliriza/aliriza.egg-info/top_level.txt
+../../build/aliriza/aliriza.egg-info/zip-safe
+aliriza/__init__.py
+aliriza/publisher.py
+aliriza/subscriber.py
+resource/aliriza
+test/test_copyright.py
+test/test_flake8.py
+test/test_pep257.py
