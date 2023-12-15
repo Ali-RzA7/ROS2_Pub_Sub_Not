@@ -12,7 +12,9 @@ Derlenen dosyalar ve çalışma zamanı kodları orada depolnır. Derleme işlem
 
 PAKET OLUŞTURMA
 src klasörü içinde 'ros2 pkg create --build-type ament_python Paketİsmi' komutu çalıştırılır. ament_python, paketin Python dilinde yazılacağını temsil eder. 
-Paketİsmi ve resource klasörlerini, package.xml, setup.cfg ve setup.py dosyalarını oluşturulur. Paketİsmi klasörünün altında kodlar olur. package.xml, paketin meta bilgilerini içeren bir XML dosyasıdır. Paketin adı, sürümü, açıklaması, bağımlılıkları ve diğer meta bilgileri gibi paketle ilgili temel bilgileri içerir. setup.py python paketlerini tanımlamak, dağıtmak ve yüklemek için kullanılır.
+Paketİsmi ve resource klasörlerini, package.xml, setup.cfg ve setup.py dosyalarını oluşturulur. Paketİsmi klasörünün altında kodlar olur. package.xml, 
+paketin meta bilgilerini içeren bir XML dosyasıdır. Paketin adı, sürümü, açıklaması, bağımlılıkları ve diğer meta bilgileri gibi paketle ilgili temel bilgileri içerir.
+setup.py python paketlerini tanımlamak, dağıtmak ve yüklemek için kullanılır.
 
 'colcon build' ile derlenir. Spesifik bir paketin derlenmesi için 'colcon build --packages-select Paketİsmi' komutu çalıştırılır. 
 Derlenmiş paketi veya projeyi kullanabilmek için 'source install/local_setup.bash' komutu çalıştırılır.
